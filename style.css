@@ -20,6 +20,8 @@ nav{
     justify-content: space-evenly;
     position: sticky;
     top: 0;
+    background: #9f9b9b;
+    padding-bottom: 20px;
 }
 nav a{
     color: rgb(25, 25, 53);

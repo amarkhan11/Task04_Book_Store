@@ -111,6 +111,54 @@ section p{
     border: none;
 }
 
+/* Books-collection */
+.card-group{
+    display: flex;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+#Books{
+    position: relative;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    font-size: x-large;
+}
+.card-group .card{
+    width: 400px;
+    height: 500px;
+    padding: 30px;
+    background-color: #e5edf3;
+    margin: 10px;
+    border: 1px solid black;
+}
+.card-img-top{
+    width: 200px;
+    height: 315px;
+}
+.card .card-body{
+    background-color: #373b3e39;
+}
+.card .card-title{
+    background-color: #373b3e39;
+    color: white;
+    text-align: center;
+    height: 60px;
+    margin-bottom: 10px;
+    padding-top: 10px; 
+}
+.card button{
+    background-color: #373b3e39;
+    color: rgb(255, 255, 255);
+    height: 7vh;
+    width: 10vw;
+    display: block;
+    margin:0 auto;
+    border: none;
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+
 /* for mobile apps*/
 @media(max-width: 420px){
     figure{
